@@ -1,0 +1,51 @@
+body{
+    background-image: url(img/cidade.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0%; 
+    height: 100%;
+    width: 100%;
+
+}
+
+
+h1{
+    margin: 0;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+.caixa{
+    background-color: #fff;
+    width: 300px;
+    height: auto;
+    padding: 2px;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+.nome-empresa{
+    background-color: #FA6019;
+    padding: 18px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+
+
+#logo{
+    width: 50px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .caixa{
+        margin: 150px auto;
+    }
+}
